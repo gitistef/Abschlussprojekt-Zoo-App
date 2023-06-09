@@ -1,0 +1,68 @@
+.large-button{background-color: darkgrey; 
+    right:0;
+    width: 20%;
+    height: 50px;
+
+    }
+
+.left{
+    float:left;
+    }
+
+.right{
+    float:right;
+}
+
+.center{
+    background-color: red;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+.large-button2{background-color: gold;
+right:0;
+width: 200px;
+height: 50px;
+float: right;
+}
+
+.large-button3{background-color: bisque;
+    right:0;
+width: 200px;
+height: 50px;
+text-align: center;
+float: center;
+}
+
+footer {
+    padding: 5px 25px;
+    background: darkgreen;
+    color: white;
+  }
+  a {
+    color: #00aaff;
+  }
+
+  .right-image{
+float:right;
+  }
+
+  .container{
+    
+        display: flex;
+        align-items: center;
+    
+  }
+
+  .medium-image{
+    width: 25%;
+    aspect-ratio: 16/9;
+  }
+
+  .align-content{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
