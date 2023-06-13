@@ -1,1 +1,23 @@
-{}
+{
+  "name": "abschlussprojekt-zoo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitistef/Abschlussprojekt-Zoo-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitistef/Abschlussprojekt-Zoo-App/issues"
+  },
+  "homepage": "https://github.com/gitistef/Abschlussprojekt-Zoo-App#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

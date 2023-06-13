@@ -6,7 +6,7 @@ let counter = 0
 
 
 const myCounter = function (req, res, next) {
-    npm FileReader  counter++ 
+npm counter++ 
     next()
   }
   
