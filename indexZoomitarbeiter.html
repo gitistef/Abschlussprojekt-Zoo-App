@@ -22,23 +22,30 @@
     </div>
     
   </div>
-   Zuchtbestand Aktuell:<br>
-
-        Koala:<br>
+ <br>  Zuchtbestand Aktuell: </br>
+<br></br>
+       <br> Koala:</br>
+        <br></br>
         10 Tiere<br>
         Männchen: 1<br>
         Weibchen: 4<br>
         Jungtiere: 5<br>
 
-        Auswilderung August 2023: Uki<br>
-<p>Goldenes Löwenäffchen:<br>
+        Auswilderung August 2023: Uki
+        <br></br>
+<p><br>Goldenes Löwenäffchen:</br>
     <br>11 Tiere<br>
     Männchen: 4<br>
     Weibchen: 3<br>
     Jungtiere: 4<br><p>
 
         Auswilderung September 2023: Lui, Coco
+        <br></br>
+    <br> Die Zuchtprogramme ab Januar 2023 haben Erfolg, der welweite Tierbestand der Koalas wurde
+     und von den goldenen Löwenäffchen wurde        Die Zuchtprogramme haben den Bestand der Koalas und
+     Goldenen Löwenäffchen insgesamt positiv beeinflusst</br>
     </p>
+
     
 
 
@@ -67,18 +74,11 @@
         label: 'Zoobesucher Juni22-Juni23',
         data: [90000, 68000, 72000, 82000, 75000, 68000, 51000, 110000, 118000, 120000, 135000, 180000],
         backgroundColor: ['blue'],
-        borderColor: ['blac'],
-        borderWidth: 1
-  
-      },
-      {
-        label: 'Zoobesucher Juni22-Juni23',
-        data: [85000, 68000, 72000, 82000, 75000, 68000, 51000, 110000, 118000, 120000, 135000, 180000],
-        backgroundColor: ['red'],
         borderColor: ['black'],
         borderWidth: 1
   
-      }
+      },
+     
     ]
     },
     options: {
@@ -102,13 +102,13 @@
     }
   });
   new Chart(ZooEinnahmenCharts, {
-    type: 'line',
+    type: 'bar',
     
     data: {
       labels: ['Juni22', 'Juli22', 'Aug22', 'Sept22', 'Okt22', 'Nov22', 'Dez22', 'Jan23 Start 2 Sonderzuchtprogramme', 'Feb23', 'März23', 'April23', 'Juni23'],
       
       datasets: [{
-        label: 'Zoobesucher Juni22-Juni23',
+        label: 'ZooEinnahmen Juni22-Juni23',
         data: [85000, 68000, 72000, 82000, 75000, 68000, 51000, 110000, 118000, 120000, 135000, 180000],
         backgroundColor: ['red'],
         borderColor: ['black'],
@@ -140,12 +140,19 @@
     type: 'line',
     
     data: {
-      labels: ['Juni22', 'Juli22', 'Aug22', 'Sept22', 'Okt22', 'Nov22', 'Dez22', 'Jan23 Start 2 Sonderzuchtprogramme', 'Feb23', 'März23', 'April23', 'Juni23'],
-      
+      labels: ['Juni22', 'Juli22', 'Aug22', 'Sept22', 'Okt22', 'Nov22', 'Dez22', 'Jan23 Start 30 Sonderzuchtprogramme in Zoos welweit', 'Feb23', 'März23', 'April23', 'Juni23'],  
       datasets: [{
-        label: 'Zoobesucher Juni22-Juni23',
+        label: 'Tierbestandweltweit Koala Juni22-Juni23',
         data: [85000, 68000, 72000, 82000, 75000, 68000, 51000, 110000, 118000, 120000, 135000, 180000],
-        backgroundColor: ['red'],
+        backgroundColor: ['green'],
+        borderColor: ['black'],
+        borderWidth: 1
+  
+      },
+      {
+        label: 'Tierbestand weltweit Goldenes Löwenäffchen Juni22-Juni23',
+        data: [100000, 68000, 72000, 82000, 75000, 68000, 51000, 110000, 118000, 120000, 135000, 180000],
+        backgroundColor: ['orange'],
         borderColor: ['black'],
         borderWidth: 1
   
