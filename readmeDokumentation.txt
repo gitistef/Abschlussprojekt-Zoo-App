@@ -4,11 +4,11 @@ Ist es möglich mit stark gefährdeten Tieren, die es in anderen Zoos nicht gibt
     
 Technische Grundlagen:
 Kontext der Arbeit: - Es soll eine Zoo App eigenhändig durch Codierung erstellt werden
-                    - Es soll eie solide, robuste, fehlerfreie und gut dokumentierte Software entwickelt werden
+                    - Es soll eine solide, robuste, fehlerfreie und gut dokumentierte Software entwickelt werden
 
 Technische Grundlagen:
 
--   der Quellcode wird mithilfe von Visual Studio Code ertellt und mittelts Git verwaltet
+-   der Quellcode wird Mithilfe von Visual Studio Code ertellt und mittelts Git verwaltet
 -   es wird ein Projekt-Exposé in Canva erstellt
 -   es wird ein Frontend und ein Backend benötigt
 -   es werden viele verschiedene Funktionen in den Code eingebunden und Frameworks verwendet
