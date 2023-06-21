@@ -2,12 +2,26 @@
 <html lang="en">
 <h1 class="Counter-Display"></h1>
 <head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./main.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+  <div class="columns">
+        <div class="column" Id = "FirstColumn">        
+      First column <canvas id="ZoobesucherCharts"></canvas>
+    </div>
+    <div class="column" ID = "Second Column">
+      Second column  <canvas id="ZooEinnahmenCharts"></canvas>
+    </div>
+    <div class="column" ID = "Third Column">
+      Third column <canvas id="TierbestandweltweitCharts"></canvas>
+    </div>
+    
+  </div>
    Zuchtbestand Aktuell:<br>
 
         Koala:<br>
@@ -29,7 +43,137 @@
 
 
 </p>
+
+<div>
+
+    <canvas id="myChart"></canvas>
+  </div>
         
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+  const   ZoobesucherCharts = document.getElementById('ZoobesucherCharts');
+  const  ZooEinnahmenCharts = document.getElementById('ZooEinnahmenCharts');
+  const   TierbestandweltweitCharts = document.getElementById('TierbestandweltweitCharts');
+  
+  
+  
+  new Chart(ZoobesucherCharts, {
+    type: 'line',
+    
+    data: {
+      labels: ['Juni22', 'Juli22', 'Aug22', 'Sept22', 'Okt22', 'Nov22', 'Dez22', 'Jan23 Start 2 Sonderzuchtprogramme', 'Feb23', 'März23', 'April23', 'Juni23'],
+      
+      datasets: [{
+        label: 'Zoobesucher Juni22-Juni23',
+        data: [90000, 68000, 72000, 82000, 75000, 68000, 51000, 110000, 118000, 120000, 135000, 180000],
+        backgroundColor: ['blue'],
+        borderColor: ['blac'],
+        borderWidth: 1
+  
+      },
+      {
+        label: 'Zoobesucher Juni22-Juni23',
+        data: [85000, 68000, 72000, 82000, 75000, 68000, 51000, 110000, 118000, 120000, 135000, 180000],
+        backgroundColor: ['red'],
+        borderColor: ['black'],
+        borderWidth: 1
+  
+      }
+    ]
+    },
+    options: {
+       animations: {
+       tension: {
+       duration: 1000,
+       easing: 'linear',
+       from: 1,
+       to: 0,
+       loop: true
+      }
+       },
+    scales: {
+        y: {
+        beginAtZero: true
+        
+          
+        }
+       
+      }
+    }
+  });
+  new Chart(ZooEinnahmenCharts, {
+    type: 'line',
+    
+    data: {
+      labels: ['Juni22', 'Juli22', 'Aug22', 'Sept22', 'Okt22', 'Nov22', 'Dez22', 'Jan23 Start 2 Sonderzuchtprogramme', 'Feb23', 'März23', 'April23', 'Juni23'],
+      
+      datasets: [{
+        label: 'Zoobesucher Juni22-Juni23',
+        data: [85000, 68000, 72000, 82000, 75000, 68000, 51000, 110000, 118000, 120000, 135000, 180000],
+        backgroundColor: ['red'],
+        borderColor: ['black'],
+        borderWidth: 1
+  
+      }]
+    },
+    options: {
+       animations: {
+       tension: {
+       duration: 1000,
+       easing: 'linear',
+       from: 1,
+       to: 0,
+       loop: true
+      }
+       },
+    scales: {
+        y: {
+        beginAtZero: true
+        
+          
+        }
+       
+      }
+    }
+  });
+  new Chart(TierbestandweltweitCharts, {
+    type: 'line',
+    
+    data: {
+      labels: ['Juni22', 'Juli22', 'Aug22', 'Sept22', 'Okt22', 'Nov22', 'Dez22', 'Jan23 Start 2 Sonderzuchtprogramme', 'Feb23', 'März23', 'April23', 'Juni23'],
+      
+      datasets: [{
+        label: 'Zoobesucher Juni22-Juni23',
+        data: [85000, 68000, 72000, 82000, 75000, 68000, 51000, 110000, 118000, 120000, 135000, 180000],
+        backgroundColor: ['red'],
+        borderColor: ['black'],
+        borderWidth: 1
+  
+      }]
+    },
+    options: {
+       animations: {
+       tension: {
+       duration: 1000,
+       easing: 'linear',
+       from: 1,
+       to: 0,
+       loop: true
+      }
+       },
+    scales: {
+        y: {
+        beginAtZero: true
+        
+          
+        }
+       
+      }
+    }
+  });
+  
+  </script>
+
 
 
 

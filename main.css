@@ -26,7 +26,7 @@ width: 200px;
 height: 50px;
 float: right;
 }
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
 .large-button3{background-color: bisque;
     right:0;
 width: 200px;
@@ -65,18 +65,17 @@ float:right;
     justify-content: center;
     align-content: center;
   }
-  <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-    <div id ="sitehead">
-        <div class="block">
+  
+ #FirstColumn {
+  
+  
+ }
 
+ #SecondColumn{
+   
+  
+ }
+
+ #ThirdColumn {
+ 
+ }
