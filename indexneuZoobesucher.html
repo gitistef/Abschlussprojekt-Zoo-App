@@ -29,6 +29,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  min-height: 70%;
 }
 
 /* The Close Button */
@@ -52,17 +53,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <h2>Koala Cam</h2>
 
 <!-- Trigger/Open The Modal -->
-<button id="myBtn">Live</button>
+<button id="myBtn">Livebild</button>
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
-  <iframe id = "Koala Cam" width="400" height="200" src="https://www.youtube.com/embed/D7S8loe3tkk" title="YouTube video player" frameborder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+  
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
     <p>Koala Live Cam und Google Maps</p>
-     <iframe id = "Koala Cam" width="400" height="200" src="https://www.youtube.com/embed/D7S8loe3tkk" title="YouTube video player" frameborder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe id = "Koala Cam" width="60%" height="400px"  src="https://www.youtube.com/embed/D7S8loe3tkk" title="YouTube video player" frameborder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
 
   </div>
@@ -119,16 +119,11 @@ Nahrung: 50 verschiedene Eukalyptusarten, 1 Kilo pro Tag<br>
 
   </p>
   
-  <ul>
-    <li><em></em> </li>
-    <li><em></em> </li>
-    <li><em></em> </li>
-  </ul>
-
-</p>
+  
+    
 <p>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7665.173151684607!2d7.459930523778594!3d51.47422291931282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b91791efb7bd7b%3A0xc672417714074584!2sZoo%20Dortmund!5e0!3m2!1sde!2sde!4v1687117515693!5m2!1sde!2sde" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" align="right"></iframe>
-  <iframe style="text-align:right"> 
+  <iframe style="text-align:right"></iframe> 
 </div>
 </p>
 
@@ -144,7 +139,7 @@ var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
-  modal.style.display = "block";
+    modal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
